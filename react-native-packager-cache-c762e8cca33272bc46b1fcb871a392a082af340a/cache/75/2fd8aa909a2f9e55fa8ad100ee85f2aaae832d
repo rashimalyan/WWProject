@@ -1,0 +1,35 @@
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _react = require('react');
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNavigation = require('react-navigation');
+
+var _Logup = require('./App/Components/Logup');
+
+var _Logup2 = babelHelpers.interopRequireDefault(_Logup);
+
+var _Signin = require('./App/Components/Signin');
+
+var _Signin2 = babelHelpers.interopRequireDefault(_Signin);
+
+var _Ds = require('./App/Components/Ds');
+
+var _Ds2 = babelHelpers.interopRequireDefault(_Ds);
+
+var _Book = require('./App/Components/Book');
+
+var _Book2 = babelHelpers.interopRequireDefault(_Book);
+
+exports.default = (0, _reactNavigation.StackNavigator)({
+	Logup: { screen: _Logup2.default }
+}, {
+	Signin: { screen: _Signin2.default }
+}, {
+	Ds: { screen: _Ds2.default }
+}, {
+	Book: { screen: _Book2.default }
+});

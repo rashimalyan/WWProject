@@ -1,0 +1,31 @@
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = undefined;
+
+var _react = require('react');
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+require('react-native');
+
+var _reactNavigation = require('react-navigation');
+
+var App = function (_Component) {
+  babelHelpers.inherits(App, _Component);
+
+  function App() {
+    babelHelpers.classCallCheck(this, App);
+    return babelHelpers.possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+  }
+
+  babelHelpers.createClass(App, [{
+    key: 'render',
+    value: function render() {
+      return;
+    }
+  }]);
+  return App;
+}(_react.Component);
+
+exports.default = App;
